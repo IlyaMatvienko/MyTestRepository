@@ -16,7 +16,7 @@ public class Solution {
         new User("Марина", 34, Sex.FEMALE);
         new User("Алина", 7, Sex.FEMALE);
 
-
+        System.out.println("================================================");
         System.out.println("Все пользователи:");
         User.getAllUsers().forEach(System.out::println);
         System.out.println("Все пользователи: MALE");
